@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Zebrada</title>
+    <!-- CSS interno -->
+    <style>
+        /* No CSS interno precisamos de seletores para aplicar as formatações */
+        body {
+            background-color: #dadada;
+            font-family: Verdana;
+        }
+        td, th {
+            /* padding refere-se ao espaçamento */
+            padding: 6px;
+            /* Ajustar altura da linha */
+            line-height: 1.6;
+        }
+
+        /* Zebrando a tabela através das linhas pares e impares */
+        /* EVEN -> par
+        ODD -> impar */
+        tr:nth-child(even) {
+            background-color: #e8eef1;
+        }
+        tr:nth-child(odd) {
+            background-color: #c9daee;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Tabela de clientes
+      </caption>
+      <!-- CSS inline -->
+      <thead style="background-color: lightblue;">
+        <tr>
+          <th colspan="3">Dados pessoas</th>
+          <th colspan="2">Endereço</th>
+          <th>Contato</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Nome:</th>
+          <th>Idade:</th>
+          <th>Profissão:</th>
+          <th>Rua:</th>
+          <th>Cidade:</th>
+          <th>Email:</th>
+        </tr>
+        <tr>
+          <td>Ana de Souza</td>
+          <td>25</td>
+          <td>Engenharia</td>
+          <td>Avenida Carlos de Souza</td>
+          <td>São Paulo</td>
+          <td>anasouza@gmail.com</td>
+        </tr>
+        <tr>
+          <td>João Ricardo</td>
+          <td>28</td>
+          <td>Advogado</td>
+          <td>Rua das flores</td>
+          <td>Rio de Janeiro</td>
+          <td>joaoricardo@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Maria da Silva</td>
+          <td>56</td>
+          <td>Médica</td>
+          <td>Rua projetada</td>
+          <td>Registro</td>
+          <td>mariasilva@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Rafael Pereira</td>
+          <td>19</td>
+          <td>Estudante</td>
+          <td>Avenida Joaquim Ferreira</td>
+          <td>Belo Horizonte</td>
+          <td>rafaelpereira@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Rodrigo Júnior</td>
+          <td>33</td>
+          <td>Fisioterapeuta</td>
+          <td>Rua A</td>
+          <td>Cajati</td>
+          <td>rodrigojunior@gmail.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <th colspan="6">Cadastrado em: 17/03/2026</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
