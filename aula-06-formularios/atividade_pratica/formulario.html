@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de Aluno - DSM</h1>
+      <p>
+        Formulário para cadastro dos alunos da Fatec
+      </p>
+    </header>
+    <main>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <label for="nome">Nome Completo:</label>
+          <input
+            type="text"
+            required
+            placeholder="Nome Completo"
+            name="nome"
+            id="nome"
+          />
+          <br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            required
+            placeholder="Digite seu email"
+            name="email"
+            id="email"
+          />
+          <br />
+          <label for="data_nascimento">Data de Nascimento:</label>
+          <input type="date" name="data_nascimento" id="data_nascimento" />
+        </fieldset>
+        <fieldset>
+          <legend>Dados Acadêmicos</legend>
+          <label for="curso">Cursos:</label>
+          <select name="curso" id="curso">
+            <option value="DSM">DSM</option>
+            <option value="ADS">ADS</option>
+            <option value="Outro">Outro</option>
+          </select>
+          <br />
+          <input type="radio" name="turno" id="manha" value="manha" />Manhã
+          <input type="radio" name="turno" id="noite" value="noite" />Noite
+          <br />
+          <textarea name="obs" id="obs" placeholder="Observações"></textarea>
+          <br />
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
