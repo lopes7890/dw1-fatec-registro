@@ -1,35 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seletores báscicos CSS3</title>
     <!-- Importando o CSS externo -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1>Desmonstração de Seletores Básicos</h1>
 
     <!-- Seletor de ELEMENTO -->
-     <p>Este parágrafo é estilizado pelo seletor de elemento (p).</p>
+    <p>Este parágrafo é estilizado pelo seletor de elemento (p).</p>
 
-     <section>
-        <p>Este é um outro parágrafo, estilizado pelos seletores (section) e (p)</p>
-     </section>
+    <section>
+      <p>
+        Este é um outro parágrafo, estilizado pelos seletores (section) e (p)
+      </p>
+    </section>
 
+    <!-- Seletor de CLASSE -->
+    <p class="destaque">
+      Este parágrafo está sendo estilzado pela classe "destaque"
+    </p>
 
-     <!-- Seletor de CLASSE -->
-     <p class="destaque">Este parágrafo está sendo estilzado pela classe "destaque"</p>
-    
-     <p class="destaque">Outro parágrafo estilizado com a mesma classe</p>
+    <p class="destaque">Outro parágrafo estilizado com a mesma classe</p>
 
-     <!-- Seletor de ID -->
-      <!-- DIV -> criar uma divisão na página -->
-      <div id="unico">
-        Esta div possui um ID único e é estilizada especificamente.
-      </div>
+    <!-- Seletor de ID -->
+    <!-- DIV -> criar uma divisão na página -->
+    <div id="unico">
+      Esta div possui um ID único e é estilizada especificamente.
+    </div>
+    <section class="post">
+      <h2>Seção de exemplo</h2>
+      <p>Conteúdo da Seção</p>
+    </section>
+    <!-- agrupamento de seletores -->
+    <h3>Subtítulo 1</h3>
+    <h4>Subtítulo 2</h4>
+    <h5>Subtítulo 3</h5>
 
-
-</body>
+    <hr />
+    <div class="observacoes">
+      <h2>Tipos de seletores basicos:</h2>
+      <ul>
+        <li>Elemento: Seleciona todos os elementos daquele tipo.</li>
+        <li>classe: pode ser reutilizada em múltiplos elementos.</li>
+        <li>id: Estiliza um elemento único</li>
+        <li>
+          Agrupamento de seletores: Aplica o mesmo estilo a múltiplos seletores.
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
