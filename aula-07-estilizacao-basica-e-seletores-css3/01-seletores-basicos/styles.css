@@ -1,46 +1,43 @@
-
-
 /* Seletor de elemento */
 /* p -> Seletor
 font-size -> Propriedade */
 body {
-    background-color: #30302e;
-    color: #ffffff;
-    font-family: Verdana;
-    padding: 20px;
+  background-color: #30302e;
+  color: #ffffff;
+  font-family: Verdana;
+  padding: 20px;
 }
 p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    color: #8cc9e4;
-    /* Espaço interno do elemento */
-    padding: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #8cc9e4;
+  /* Espaço interno do elemento */
+  padding: 10px;
 }
 
-section p{
-    color: orange;
+section p {
+  color: orange;
 }
 /* Seletor de CLASS */
 .destaque {
-    background-color: #ffd700;
-    color: #000000;
-    padding: 10px;
-    /* Border -> 5px (expessura) solid (tipo de borda) e a cor */
-    border-left: 5px solid #ff6347;
-    border-radius: 3px;
+  background-color: #ffd700;
+  color: #000000;
+  padding: 10px;
+  /* Border -> 5px (expessura) solid (tipo de borda) e a cor */
+  border-left: 5px solid #ff6347;
+  border-radius: 3px;
 }
 
 /* Seletor de ID */
 #unico {
-    background-color: #8cc9e4;
-    color: #30302e;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    height: 100px;
+  background-color: #8cc9e4;
+  color: #30302e;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  height: 100px;
 }
-
 
 /* POSICIONAMENTOS: 
 LEFT - esquerda
@@ -51,4 +48,36 @@ BOTTOM - inferior */
 /* HEIGHT -> altura
 WIDTH -> largura */
 
-
+.post {
+  background-color: #3a3a38;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.post h2 {
+  color: #ffd700;
+}
+h3,
+h4,
+h5 {
+  color: #4caf50;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.observacoes {
+  background-color: #252523;
+  padding: 20px;
+  border: 2px solid #8cc9e4;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+ul {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+li {
+  margin-bottom: 8px;
+}
+.observacoes h2 {
+  color: #8cc9e4;
+}
