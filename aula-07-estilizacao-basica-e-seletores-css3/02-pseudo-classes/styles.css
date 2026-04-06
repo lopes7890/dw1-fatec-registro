@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana;
+    background-color: #30302e;
+    color: white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #8cc9e4;
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #8cc9e4;
+}
+
+h2 {
+    color: #8cc9e4;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.caixa {
+    width: 530px;
+    background-color: #3a3a38;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #8cc9e4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.caixa:hover {
+    background-color: #8cc9e4;
+    color: #30302e;
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px rgba(140, 201, 228, 0.5);
+}
