@@ -32,9 +32,54 @@ h2 {
     cursor: pointer;
 }
 
+/* Pseudo-classes - adiciona funcionalidades aos seletores */
+
+/* Hover */
 .caixa:hover {
     background-color: #8cc9e4;
     color: #30302e;
     transform: scale(0.9);
     box-shadow: 0 8px 16px rgba(140, 201, 228, 0.5);
 }
+
+.btn-download {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-download:hover {
+    background-color: #2f7533;
+}
+
+/* Active */
+
+.btn-download:active {
+    background-color: #dc5252;
+    transform: scale(0.95);
+
+}
+
+/* Focus */
+
+input {
+    /* Largura máxima */
+    max-width: 400px; 
+    padding: 12px;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    background-color: #3a3a38;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8cc9e4;
+    box-shadow: 0 0 10px rgba(140, 201, 228, 0.5);
+    background-color: #252523;
+} 
