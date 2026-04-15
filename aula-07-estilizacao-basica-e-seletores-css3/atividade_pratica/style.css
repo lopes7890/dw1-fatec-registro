@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+p {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#sobre-mim {
+  color: #555;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.tecnologias {
+  color: #555;
+  /* padding-left: 20px; */
+}
+
+.tecnologias li {
+  color: #fa4a70;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.habilidades {
+  border: 2px solid #333;
+  padding: 30px;
+  margin: 10px;
+}
+
+h4 {
+  color: #00819b;
+}
+
+h4::after {
+  content: " - Habilidade";
+  color: #fa4a70;
+  font-size: 0.8em;
+}
+
+.habilidades p {
+  font-family: Verdana;
+}
+
+.habilidades:hover {
+  background-color: #333;
+  color: white;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+a[href^="https"] {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: slategray;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+footer h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer h3 ~ p {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
