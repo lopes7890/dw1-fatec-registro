@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    /* Conteúdo */
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    /* Padding: espaço interno */
+    padding: 20px;
+    /* Border: borda da caixa */
+    border: 10px solid blue;
+    /* Margin: espaço externo */
+    margin: 30px;
+    text-align: center;
+}
+
+/* O box-model é composto por: 
+-Content (Conteúdo)
+-Padding (Espaço Interno)
+-Border (Borda)
+-Margin (Espaço Externo) */
+
+/* IMPORTANTE  
+-A largura final da caixa será: 
+width + padding + border */
