@@ -239,3 +239,25 @@ body {
     padding-top: 2rem;
     border-top: 1px solid #4a3226;
 }
+
+/* RESPONSIVIDADE */
+/* Ajustes de Responsividade */
+
+/* Largura Aproximada do MOBILE */
+@media (max-width: 768px) {
+  .sobre-flex {
+    flex-direction: column;
+  }
+.footer-content {
+  flex-direction: column;
+}
+.logo {
+  font-size: 1rem;
+}
+.menu {
+  gap: 1rem;
+}
+.hero-content {
+  font-size: 2rem;
+}
+}
